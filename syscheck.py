@@ -10,6 +10,11 @@ try:
 except ImportError:
     print("OpenCV is not installed or wrong. Please install it to proceed.")
     sys.exit(1)
+try:
+    import matplotlib
+except ImportError:
+    print("Matplotlib is not installed or wrong. Please install it to proceed.")
+    sys.exit(1)
 
 
 # write venv locationn
@@ -24,6 +29,7 @@ def write_info():
     print(f"Python version: {sys.version}")
     print(f"NumPy version: {np.__version__}")
     print(f"OpenCV version: {cv2.__version__}")
+    print(f"Matplotlib version: {matplotlib.__version__}")
 
 
 def main():
