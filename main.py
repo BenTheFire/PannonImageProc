@@ -32,7 +32,7 @@ def main():
     print("\n-\n")
     print("All dependencies are installed correctly.")
     print("\n-\n")
-    print("You can now run other scripts like syscheck.py or Class1/img_proc.py to verify the setup.")
+    print("You can now run other scripts like syscheck.py or Class1/main.py to verify the setup.")
 
 
 if __name__ == '__main__':
